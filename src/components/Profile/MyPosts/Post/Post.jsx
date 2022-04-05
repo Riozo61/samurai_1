@@ -1,14 +1,13 @@
 import React from "react";
 import s from "./Post.module.css";
+import logo from "../../../../assets/images/logo.png";
 const Post = (props) => {
-  console.log(props.message);
-
   return (
     <div className={s.item}>
-      <img src="https://uploadstatic-sea.mihoyo.com/contentweb/20210715/2021071517142832030.png" />
+      <img src={logo} />
       {props.message}
       <div>
-        <span>like</span> {props.likesCount}
+        <span>likes</span> {props.likesCount}
       </div>
     </div>
   );
