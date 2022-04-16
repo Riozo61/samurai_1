@@ -4,7 +4,7 @@ const INITIALIZED_SUCCESS = "INITIALIZED_SUCCESS";
 let initialState = {
   initialized: false,
 };
-//что то
+//что то tot
 
 const appReducer = (state = initialState, action) => {
   switch (action.type) {
